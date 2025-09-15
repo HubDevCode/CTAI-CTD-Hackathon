@@ -1,0 +1,451 @@
+{
+  "project_overview": {
+    "project_name": "Data Center Construction - 25MW Facility",
+    "location": "Maharashtra, India",
+    "total_area": "200,000 sq ft",
+    "project_duration": "12 months",
+    "total_estimated_cost": 16640000
+  },
+  "material_requirements": {
+    "Steel Reinforcement Bars": {
+      "quantity": 160,
+      "unit": "tons",
+      "estimated_cost_per_unit": 15000,
+      "critical_path": true,
+      "required_for_tasks": [
+        "Excavation & Foundation",
+        "Steel Structure Assembly"
+      ],
+      "quality_standards": "IS 1786:2008, Grade Fe 500",
+      "storage_requirements": "Covered warehouse, max 3 tier stacking"
+    },
+    "Concrete Mix": {
+      "quantity": 200,
+      "unit": "cubic meters",
+      "estimated_cost_per_unit": 5000,
+      "critical_path": true,
+      "required_for_tasks": [
+        "Foundation Work",
+        "Superstructure"
+      ],
+      "quality_standards": "IS 456:2000, M30 Grade",
+      "storage_requirements": "Ready-mix on demand, no storage"
+    },
+    "Electrical Cables": {
+      "quantity": 80,
+      "unit": "kilometers",
+      "estimated_cost_per_unit": 8000,
+      "critical_path": false,
+      "required_for_tasks": [
+        "Electrical Infrastructure",
+        "Power Distribution"
+      ],
+      "quality_standards": "IS 694:1990, PVC insulated",
+      "storage_requirements": "Dry storage, vertical reels"
+    },
+    "HVAC Equipment": {
+      "quantity": 84,
+      "unit": "units",
+      "estimated_cost_per_unit": 150000,
+      "critical_path": true,
+      "required_for_tasks": [
+        "HVAC System Installation"
+      ],
+      "quality_standards": "ASHRAE standards, Energy Star rated",
+      "storage_requirements": "Climate-controlled warehouse"
+    }
+  },
+  "procurement_strategies": {
+    "Steel Reinforcement Bars": {
+      "sourcing_approach": "Multi-vendor with primary supplier",
+      "primary_vendor": {
+        "name": "Mumbai Steel Works Pvt Ltd",
+        "location": "Mumbai, Maharashtra",
+        "contact": "+91-22-2345-6789",
+        "email": "info@mumbaisteel.com",
+        "services": [
+          "Steel Reinforcement Bars",
+          "TMT Bars",
+          "Structural Steel"
+        ],
+        "rating": 4.5,
+        "years_experience": 15,
+        "website": "www.mumbaisteel.com"
+      },
+      "backup_vendors": [
+        {
+          "name": "Pune Iron & Steel Co.",
+          "location": "Pune, Maharashtra",
+          "contact": "+91-20-3456-7890",
+          "email": "sales@puneiron.com",
+          "services": [
+            "Steel Bars",
+            "Iron Products",
+            "Metal Fabrication"
+          ],
+          "rating": 4.2,
+          "years_experience": 12,
+          "website": "www.puneiron.com"
+        },
+        {
+          "name": "Nashik Steel Industries",
+          "location": "Nashik, Maharashtra",
+          "contact": "+91-253-456-7891",
+          "email": "contact@nashiksteel.com",
+          "services": [
+            "TMT Bars",
+            "Steel Reinforcement",
+            "Construction Steel"
+          ],
+          "rating": 4.0,
+          "years_experience": 10,
+          "website": "www.nashiksteel.com"
+        }
+      ],
+      "procurement_method": "Competitive bidding",
+      "delivery_schedule": {
+        "delivery_start": "2024-03-19",
+        "delivery_end": "2024-06-04",
+        "lead_time_days": 30,
+        "delivery_method": "Phased delivery"
+      },
+      "inventory_strategy": "Safety stock",
+      "payment_terms": "30% advance, 60% on delivery, 10% on acceptance",
+      "contract_duration": "Project duration with extension option",
+      "performance_metrics": [
+        "On-time delivery rate >= 95%",
+        "Quality acceptance rate >= 98%",
+        "Cost variance <= 5%"
+      ]
+    },
+    "Concrete Mix": {
+      "sourcing_approach": "Multi-vendor with primary supplier",
+      "primary_vendor": {
+        "name": "Maharashtra Concrete Solutions",
+        "location": "Mumbai, Maharashtra",
+        "contact": "+91-22-4567-8901",
+        "email": "info@mahaconcrete.com",
+        "services": [
+          "Ready Mix Concrete",
+          "Precast Concrete",
+          "Concrete Pumping"
+        ],
+        "rating": 4.6,
+        "years_experience": 20,
+        "website": "www.mahaconcrete.com"
+      },
+      "backup_vendors": [
+        {
+          "name": "Pune Ready Mix Ltd",
+          "location": "Pune, Maharashtra",
+          "contact": "+91-20-5678-9012",
+          "email": "orders@punereadymix.com",
+          "services": [
+            "Ready Mix Concrete",
+            "Concrete Supply",
+            "Quality Testing"
+          ],
+          "rating": 4.3,
+          "years_experience": 18,
+          "website": "www.punereadymix.com"
+        },
+        {
+          "name": "Reliable Concrete Works",
+          "location": "Nagpur, Maharashtra",
+          "contact": "+91-712-345-6789",
+          "email": "reliable@concrete.com",
+          "services": [
+            "Concrete Supply",
+            "RMC",
+            "Concrete Testing"
+          ],
+          "rating": 4.0,
+          "years_experience": 12,
+          "website": "www.reliableconcrete.com"
+        }
+      ],
+      "procurement_method": "Competitive bidding",
+      "delivery_schedule": {
+        "delivery_start": "2024-06-05",
+        "delivery_end": "2024-07-05",
+        "lead_time_days": 30,
+        "delivery_method": "Phased delivery"
+      },
+      "inventory_strategy": "Safety stock",
+      "payment_terms": "30% advance, 60% on delivery, 10% on acceptance",
+      "contract_duration": "Project duration with extension option",
+      "performance_metrics": [
+        "On-time delivery rate >= 95%",
+        "Quality acceptance rate >= 98%",
+        "Cost variance <= 5%"
+      ]
+    },
+    "Electrical Cables": {
+      "sourcing_approach": "Multi-vendor with primary supplier",
+      "primary_vendor": {
+        "name": "Maharashtra Cables & Wires",
+        "location": "Aurangabad, Maharashtra",
+        "contact": "+91-240-234-5678",
+        "email": "sales@mahacables.com",
+        "services": [
+          "Power Cables",
+          "Control Cables",
+          "Fiber Optic Cables"
+        ],
+        "rating": 4.4,
+        "years_experience": 14,
+        "website": "www.mahacables.com"
+      },
+      "backup_vendors": [
+        {
+          "name": "Western India Electricals",
+          "location": "Mumbai, Maharashtra",
+          "contact": "+91-22-6789-0123",
+          "email": "info@wielectricals.com",
+          "services": [
+            "Electrical Cables",
+            "Switchgear",
+            "Electrical Components"
+          ],
+          "rating": 4.1,
+          "years_experience": 16,
+          "website": "www.wielectricals.com"
+        }
+      ],
+      "procurement_method": "Direct procurement",
+      "delivery_schedule": {
+        "delivery_start": "2024-07-11",
+        "delivery_end": "2024-09-20",
+        "lead_time_days": 30,
+        "delivery_method": "Single delivery"
+      },
+      "inventory_strategy": "Just-in-time",
+      "payment_terms": "30% advance, 60% on delivery, 10% on acceptance",
+      "contract_duration": "Project duration with extension option",
+      "performance_metrics": [
+        "On-time delivery rate >= 95%",
+        "Quality acceptance rate >= 98%",
+        "Cost variance <= 5%"
+      ]
+    },
+    "HVAC Equipment": {
+      "sourcing_approach": "Multi-vendor with primary supplier",
+      "primary_vendor": {
+        "name": "Cool Air Systems Maharashtra",
+        "location": "Pune, Maharashtra",
+        "contact": "+91-20-7890-1234",
+        "email": "info@coolair.com",
+        "services": [
+          "HVAC Systems",
+          "Air Conditioning",
+          "Ventilation Equipment"
+        ],
+        "rating": 4.5,
+        "years_experience": 22,
+        "website": "www.coolair.com"
+      },
+      "backup_vendors": [
+        {
+          "name": "Mumbai Climate Control",
+          "location": "Mumbai, Maharashtra",
+          "contact": "+91-22-8901-2345",
+          "email": "sales@mumbaiclimate.com",
+          "services": [
+            "HVAC Installation",
+            "Climate Control",
+            "Maintenance Services"
+          ],
+          "rating": 4.2,
+          "years_experience": 19,
+          "website": "www.mumbaiclimate.com"
+        }
+      ],
+      "procurement_method": "Direct procurement",
+      "delivery_schedule": {
+        "delivery_start": "2024-07-11",
+        "delivery_end": "2024-08-10",
+        "lead_time_days": 30,
+        "delivery_method": "Single delivery"
+      },
+      "inventory_strategy": "Safety stock",
+      "payment_terms": "30% advance, 60% on delivery, 10% on acceptance",
+      "contract_duration": "Project duration with extension option",
+      "performance_metrics": [
+        "On-time delivery rate >= 95%",
+        "Quality acceptance rate >= 98%",
+        "Cost variance <= 5%"
+      ]
+    }
+  },
+  "risk_management": {
+    "risk_assessment": [
+      {
+        "risk_category": "Supply Chain",
+        "risk_description": "Material price volatility",
+        "probability": "High",
+        "impact": "Medium",
+        "mitigation_strategy": "Fixed-price contracts with price escalation clauses",
+        "contingency_plan": "Alternative supplier activation"
+      },
+      {
+        "risk_category": "Quality",
+        "risk_description": "Material quality issues",
+        "probability": "Medium",
+        "impact": "High",
+        "mitigation_strategy": "Pre-qualified vendor list, quality inspections",
+        "contingency_plan": "Rejection and re-procurement process"
+      },
+      {
+        "risk_category": "Logistics",
+        "risk_description": "Transportation delays",
+        "probability": "Medium",
+        "impact": "Medium",
+        "mitigation_strategy": "Buffer time in delivery schedules",
+        "contingency_plan": "Expedited shipping arrangements"
+      },
+      {
+        "risk_category": "Regulatory",
+        "risk_description": "Import/permit delays",
+        "probability": "Low",
+        "impact": "High",
+        "mitigation_strategy": "Early permit applications, compliance monitoring",
+        "contingency_plan": "Legal and regulatory support engagement"
+      }
+    ],
+    "monitoring_frequency": "Weekly risk reviews",
+    "escalation_matrix": {
+      "Low impact": "Project Manager",
+      "Medium impact": "Procurement Director",
+      "High impact": "Project Steering Committee"
+    }
+  },
+  "quality_assurance": {
+    "quality_standards": {
+      "Steel": "IS 1786:2008, Grade Fe 500",
+      "Concrete": "IS 456:2000, M30 Grade minimum",
+      "Electrical": "IS 694:1990, IEC standards",
+      "HVAC": "ASHRAE standards, Energy Star certification"
+    },
+    "inspection_procedures": [
+      "Pre-delivery inspection at vendor facility",
+      "Goods receipt inspection at site",
+      "Installation quality checks",
+      "Final acceptance testing"
+    ],
+    "documentation_requirements": [
+      "Material certificates",
+      "Test reports",
+      "Calibration certificates",
+      "Compliance declarations"
+    ],
+    "rejection_criteria": "Non-conformance to specifications or standards"
+  },
+  "timeline": {
+    "total_timeline_weeks": 26,
+    "phases": [
+      {
+        "phase": "Planning & Specification",
+        "duration_weeks": 2,
+        "activities": [
+          "Material requirement finalization",
+          "Technical specification preparation",
+          "Budget approval"
+        ]
+      },
+      {
+        "phase": "Vendor Selection",
+        "duration_weeks": 3,
+        "activities": [
+          "RFQ preparation and issuance",
+          "Vendor evaluation and shortlisting",
+          "Contract negotiation"
+        ]
+      },
+      {
+        "phase": "Contract Award",
+        "duration_weeks": 1,
+        "activities": [
+          "Contract finalization",
+          "Purchase order issuance",
+          "Delivery schedule confirmation"
+        ]
+      },
+      {
+        "phase": "Execution & Monitoring",
+        "duration_weeks": 20,
+        "activities": [
+          "Production monitoring",
+          "Quality inspections",
+          "Delivery coordination",
+          "Invoice processing"
+        ]
+      }
+    ],
+    "critical_milestones": [
+      "Week 2: Specifications approved",
+      "Week 5: Vendors selected",
+      "Week 6: Contracts signed",
+      "Week 26: All materials delivered"
+    ]
+  },
+  "budget_breakdown": {
+    "material_costs": {
+      "Steel Reinforcement Bars": {
+        "quantity": 160,
+        "unit_cost": 15000,
+        "total_cost": 2400000,
+        "percentage": 14.42
+      },
+      "Concrete Mix": {
+        "quantity": 200,
+        "unit_cost": 5000,
+        "total_cost": 1000000,
+        "percentage": 6.01
+      },
+      "Electrical Cables": {
+        "quantity": 80,
+        "unit_cost": 8000,
+        "total_cost": 640000,
+        "percentage": 3.85
+      },
+      "HVAC Equipment": {
+        "quantity": 84,
+        "unit_cost": 150000,
+        "total_cost": 12600000,
+        "percentage": 75.72
+      }
+    },
+    "additional_costs": {
+      "logistics": 832000.0,
+      "insurance": 332800.0,
+      "contingency": 1664000.0
+    },
+    "total_material_cost": 16640000,
+    "total_procurement_cost": 19468800.0,
+    "currency": "INR"
+  },
+  "vendor_management": {
+    "vendor_selection_criteria": [
+      "Technical capability (30%)",
+      "Financial stability (25%)",
+      "Past performance (20%)",
+      "Quality certification (15%)",
+      "Delivery capability (10%)"
+    ],
+    "performance_monitoring": {
+      "metrics": [
+        "On-time delivery rate",
+        "Quality acceptance rate",
+        "Cost performance",
+        "Customer service rating"
+      ],
+      "review_frequency": "Monthly",
+      "improvement_plans": "Quarterly vendor development meetings"
+    },
+    "relationship_management": {
+      "communication_protocol": "Weekly status calls",
+      "escalation_matrix": "Defined contact hierarchy",
+      "partnership_development": "Strategic vendor partnerships for future projects"
+    }
+  }
+}

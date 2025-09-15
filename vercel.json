@@ -1,0 +1,27 @@
+{
+  "functions": {
+    "api/predict.py": {
+      "runtime": "python3.9"
+    },
+    "api/vendors.py": {
+      "runtime": "python3.9"
+    },
+    "api/schedule.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico))",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
+    }
+  ]
+}

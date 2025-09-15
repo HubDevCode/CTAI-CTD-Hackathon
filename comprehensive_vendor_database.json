@@ -1,0 +1,164 @@
+{
+  "Steel Reinforcement Bars": [
+    {
+      "name": "Mumbai Steel Works Pvt Ltd",
+      "location": "Mumbai, Maharashtra",
+      "contact": "+91-22-2345-6789",
+      "email": "info@mumbaisteel.com",
+      "services": [
+        "Steel Reinforcement Bars",
+        "TMT Bars",
+        "Structural Steel"
+      ],
+      "rating": 4.5,
+      "years_experience": 15,
+      "website": "www.mumbaisteel.com"
+    },
+    {
+      "name": "Pune Iron & Steel Co.",
+      "location": "Pune, Maharashtra",
+      "contact": "+91-20-3456-7890",
+      "email": "sales@puneiron.com",
+      "services": [
+        "Steel Bars",
+        "Iron Products",
+        "Metal Fabrication"
+      ],
+      "rating": 4.2,
+      "years_experience": 12,
+      "website": "www.puneiron.com"
+    },
+    {
+      "name": "Nashik Steel Industries",
+      "location": "Nashik, Maharashtra",
+      "contact": "+91-253-456-7891",
+      "email": "contact@nashiksteel.com",
+      "services": [
+        "TMT Bars",
+        "Steel Reinforcement",
+        "Construction Steel"
+      ],
+      "rating": 4.0,
+      "years_experience": 10,
+      "website": "www.nashiksteel.com"
+    },
+    {
+      "name": "Shree Steel Trading Co.",
+      "location": "Thane, Maharashtra",
+      "contact": "+91-22-9012-3456",
+      "email": "shreesteel@gmail.com",
+      "services": [
+        "Steel Bars",
+        "TMT Bars",
+        "Steel Trading"
+      ],
+      "rating": 3.8,
+      "years_experience": 8,
+      "website": "www.shreesteel.in"
+    }
+  ],
+  "Concrete Mix": [
+    {
+      "name": "Maharashtra Concrete Solutions",
+      "location": "Mumbai, Maharashtra",
+      "contact": "+91-22-4567-8901",
+      "email": "info@mahaconcrete.com",
+      "services": [
+        "Ready Mix Concrete",
+        "Precast Concrete",
+        "Concrete Pumping"
+      ],
+      "rating": 4.6,
+      "years_experience": 20,
+      "website": "www.mahaconcrete.com"
+    },
+    {
+      "name": "Pune Ready Mix Ltd",
+      "location": "Pune, Maharashtra",
+      "contact": "+91-20-5678-9012",
+      "email": "orders@punereadymix.com",
+      "services": [
+        "Ready Mix Concrete",
+        "Concrete Supply",
+        "Quality Testing"
+      ],
+      "rating": 4.3,
+      "years_experience": 18,
+      "website": "www.punereadymix.com"
+    },
+    {
+      "name": "Reliable Concrete Works",
+      "location": "Nagpur, Maharashtra",
+      "contact": "+91-712-345-6789",
+      "email": "reliable@concrete.com",
+      "services": [
+        "Concrete Supply",
+        "RMC",
+        "Concrete Testing"
+      ],
+      "rating": 4.0,
+      "years_experience": 12,
+      "website": "www.reliableconcrete.com"
+    }
+  ],
+  "Electrical Cables": [
+    {
+      "name": "Maharashtra Cables & Wires",
+      "location": "Aurangabad, Maharashtra",
+      "contact": "+91-240-234-5678",
+      "email": "sales@mahacables.com",
+      "services": [
+        "Power Cables",
+        "Control Cables",
+        "Fiber Optic Cables"
+      ],
+      "rating": 4.4,
+      "years_experience": 14,
+      "website": "www.mahacables.com"
+    },
+    {
+      "name": "Western India Electricals",
+      "location": "Mumbai, Maharashtra",
+      "contact": "+91-22-6789-0123",
+      "email": "info@wielectricals.com",
+      "services": [
+        "Electrical Cables",
+        "Switchgear",
+        "Electrical Components"
+      ],
+      "rating": 4.1,
+      "years_experience": 16,
+      "website": "www.wielectricals.com"
+    }
+  ],
+  "HVAC Equipment": [
+    {
+      "name": "Cool Air Systems Maharashtra",
+      "location": "Pune, Maharashtra",
+      "contact": "+91-20-7890-1234",
+      "email": "info@coolair.com",
+      "services": [
+        "HVAC Systems",
+        "Air Conditioning",
+        "Ventilation Equipment"
+      ],
+      "rating": 4.5,
+      "years_experience": 22,
+      "website": "www.coolair.com"
+    },
+    {
+      "name": "Mumbai Climate Control",
+      "location": "Mumbai, Maharashtra",
+      "contact": "+91-22-8901-2345",
+      "email": "sales@mumbaiclimate.com",
+      "services": [
+        "HVAC Installation",
+        "Climate Control",
+        "Maintenance Services"
+      ],
+      "rating": 4.2,
+      "years_experience": 19,
+      "website": "www.mumbaiclimate.com"
+    }
+  ]
+}
