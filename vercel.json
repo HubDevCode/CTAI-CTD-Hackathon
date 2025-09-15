@@ -1,13 +1,18 @@
 {
-  "functions": {
-    "api/predict.py": {
-      "runtime": "python3.9"
-    },
-    "api/vendors.py": {
-      "runtime": "python3.9"
-    },
-    "api/schedule.py": {
-      "runtime": "python3.9"
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
